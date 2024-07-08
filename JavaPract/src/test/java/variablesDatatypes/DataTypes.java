@@ -17,8 +17,8 @@ Premitive datatype strores one value at a time.
 Non-premitive datatype can store multiple values at a time.
 */
 
-
-package VariablesDatatypes;
+/*
+package variablesDatatypes;
 
 public class DataTypes {
 	
@@ -65,3 +65,4 @@ public class DataTypes {
 	
 
 }
+*/

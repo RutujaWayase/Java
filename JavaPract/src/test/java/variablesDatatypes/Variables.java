@@ -1,4 +1,4 @@
-package VariablesDatatypes;
+package variablesDatatypes;
 
 public class Variables {
 	
