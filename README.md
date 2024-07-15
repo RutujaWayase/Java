@@ -26,3 +26,29 @@ Polymorphis: 4 rules (method overloading: Method/Constructor overloading)
 2)	Number of parameters should be different.
 3)	Data type of parameters should be different
 4)	Order of parameters should be different.
+
+Encapsulation:
+Wrapping up of data and methods into single unit/class. 
+Getter and Setter.
+
+The get method returns the variable value, and the set method sets the value.
+
+Eg: 
+public class Person {
+  private String name; // private = restricted access
+
+  // Getter
+  public String getName() {
+    return name;
+  }
+
+  // Setter
+  public void setName(String newName) {
+    this.name = newName;
+  }
+}
+
+Encapsulation Rules:
+1) All variables should be private.
+2) For every variable there should be 2 methods(get & set).
+3) Variables can be operated only through methods.
