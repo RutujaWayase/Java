@@ -9,6 +9,13 @@ public class AccountMain {
 		//acc.getAccno()
 		System.out.println(acc.getAccno());
 		
+		acc.setAmount(56000);
+		acc.setName("john");
+		
+		System.out.println(acc.getAmount());
+		System.out.println(acc.getName());
+		
+		
 		
 	}
 
