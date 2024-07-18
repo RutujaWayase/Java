@@ -52,3 +52,10 @@ Encapsulation Rules:
 1) All variables should be private.
 2) For every variable there should be 2 methods(get & set).
 3) Variables can be operated only through methods.
+
+#this and static keyword
+this Keyword
+
+2 types of variables
+1) class varibles/instance variables
+2) local variables
