@@ -2,10 +2,11 @@ package oopsThisStaticKeywords;
 
 
 /*
-this Keyword
+ * In Java there is no concept of global variables
+this Keyword - this keyword always represents class/object
 
 2 types of variables
-1) class varibles/instance variables
+1) class variables/instance variables
 2) local variables
 */
 

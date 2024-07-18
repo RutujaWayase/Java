@@ -54,8 +54,16 @@ Encapsulation Rules:
 3) Variables can be operated only through methods.
 
 #this and static keyword
-this Keyword
+this Keyword - this keyword always represents class/object
 
 2 types of variables
 1) class varibles/instance variables
 2) local variables
+
+Static Keyword -  static keyword can be applied for variables & methods.
+
+static variables
+static methods
+
+non-static variables
+non-static methods
