@@ -53,7 +53,7 @@ Encapsulation Rules:
 2) For every variable there should be 2 methods(get & set).
 3) Variables can be operated only through methods.
 
-#this and static keyword
+# this and static keyword
 this Keyword - this keyword always represents class/object
 
 2 types of variables
