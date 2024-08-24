@@ -1,0 +1,94 @@
+///////////Remove Duplicate Char from String/////////////
+///////Not correct//////
+
+public class RemoveDuplicateCharFromString{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+
+String name = sc.next();
+int count=0;
+
+String newStr = "";
+
+for(int i=0; i<name.length(); i++){
+
+Char ch = name.charAt(i);
+if(newStr.indexOf(ch) == -1){
+newStr += ch;
+}
+
+
+
+}
+return newStr;
+}
+}
+
+
+//////////////////////////Reverse a String//////////////
+public class ReverseAString{
+public static void main(String[] args){
+//Approach1 - length(), charAt()
+/*
+String s = "selenium";
+String rev = "";
+for(int i=s.length()-1; i>=0; i--){
+rev = rev + s.charAt(i);
+System.out.println("Reverse string is:" + rev);
+
+*/
+
+//without using string methods
+
+String s = "welcome";
+String rev = "";
+char a[] = s.toCharArray();
+for(int i=a.length-1; i>=0; i--){
+rev = rev+a[i];
+}
+System.out.println("Reverse string is:"+rev);
+
+}
+}
+}
+
+//Approach 3: using StringBuffer Class
+StringBuffer s = new StringBuffer("welcome");
+System.out.println("Reverse string is: "+s.reverse());
+
+//Approach 4: using StringBuilder class
+StringBuilder s = new StringBuilder("welcome);
+System.out.println("Reverse string is: "+ s.reverse());
+
+
+
+
+
+////////////////// Reverse a word////
+public class Reverse{
+public static void main(String[] args){
+String str = "Good Morning";
+String newStr = "";
+char ch;
+System.out.println("Original word: "+ str);
+for(int i=0; i<str.length(); i++){
+ch = str.charAt(i);
+newStr = ch+newStr;
+}
+
+System.out.println("Reverse word: "+ newStr);
+}
+}
+
+///////////////
+public class Reverse{
+public static void main(String[] args){
+String s = "AASDFGH";
+String n = "";
+int leng = s.length();
+for(int i=leng-1; i>=0; i--){
+n = n + s.charAt(i);
+}
+System.out.println("Reverse: "+n);
+}
+}
