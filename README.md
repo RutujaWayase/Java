@@ -27,6 +27,7 @@ Polymorphis: 4 rules (method overloading: Method/Constructor overloading)
 3)	Data type of parameters should be different
 4)	Order of parameters should be different.
 
+
 Encapsulation:
 Wrapping up of data and methods into single unit/class. 
 Getter and Setter.
